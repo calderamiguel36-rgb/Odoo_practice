@@ -9,7 +9,9 @@
     "installable": True,
     "depends": ["base"], #dependencias del módulo
     "data": [
-        # Aquí iremos añadiendo views, menus, security, etc.
+        # Archivos de security
+        'security/ir.model.access.csv',
+
     ],
     "installable": True,
     "application": True,
